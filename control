@@ -1,0 +1,9 @@
+Package: com.mbucc9000.slopkit
+Name: slopkit Settings
+Version: 1.0.5
+Architecture: iphoneos-arm
+Description: All your slopkit tweaks in one place in Settings. Every slopkit tweak shows up under one slopkit row, and tweaks with settings open their own pane from there.
+Author: mbucc9000
+Maintainer: mbucc9000
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader

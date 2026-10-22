@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>credits</key>
+	<array>
+		<dict>
+			<key>label</key>
+			<string>lululab</string>
+			<key>url</key>
+			<string>http://lululab.net/</string>
+		</dict>
+	</array>
+	<key>name</key>
+	<string>slopkit</string>
+	<key>packages</key>
+	<array>
+		<dict>
+			<key>about</key>
+			<string>An unofficial Spotify client for iOS 6, which also runs on iOS 5. Music streams from your own Encore Bridge, which you run on a computer at home (Windows or Docker). Needs Spotify Premium. Not made by, affiliated with or endorsed by Spotify.</string>
+			<key>app</key>
+			<true/>
+			<key>howto</key>
+			<array>
+				<string>Run Encore Bridge at home (Windows installer or Docker) and follow its setup guide.</string>
+				<string>Install Encore from slopkit, open it and pair it with the bridge.</string>
+			</array>
+			<key>id</key>
+			<string>com.mbucc9000.encore</string>
+			<key>name</key>
+			<string>Encore</string>
+			<key>public</key>
+			<true/>
+			<key>tagline</key>
+			<string>Spotify, back on iOS 6.</string>
+			<key>version</key>
+			<string>1.7.0</string>
+		</dict>
+		<dict>
+			<key>about</key>
+			<string>An unofficial Venmo client for iOS 6. It talks to Venmo straight from your phone; there's no server to run. Needs TLSFix (and its certificates) for modern HTTPS, and a computer once to copy your device ID. Venmo's terms don't allow unofficial apps and Venmo can limit accounts over it. Not made by, affiliated with or endorsed by Venmo or PayPal.</string>
+			<key>app</key>
+			<true/>
+			<key>howto</key>
+			<array>
+				<string>Install TLSFix first.</string>
+				<string>Open Venn and follow the built-in setup guide: device ID, sign in, then set a PIN.</string>
+			</array>
+			<key>id</key>
+			<string>com.mbucc9000.venn</string>
+			<key>name</key>
+			<string>Venn</string>
+			<key>public</key>
+			<true/>
+			<key>tagline</key>
+			<string>Venmo, back on iOS 6.</string>
+			<key>version</key>
+			<string>1.0.4</string>
+		</dict>
+		<dict>
+			<key>about</key>
+			<string>An unofficial native Amazon shopping app for iOS 6: search, product pages, a cart, saved for later and your orders, through your own Rainforest Bridge at home. Checkout is handed off to a phone with the Amazon app. Not made by, affiliated with or endorsed by Amazon.</string>
+			<key>app</key>
+			<true/>
+			<key>howto</key>
+			<array/>
+			<key>id</key>
+			<string>com.mbucc9000.rainforest</string>
+			<key>name</key>
+			<string>Rainforest</string>
+			<key>public</key>
+			<false/>
+			<key>tagline</key>
+			<string>Amazon shopping, back on iOS 6.</string>
+			<key>version</key>
+			<string>0.4.6</string>
+		</dict>
+		<dict>
+			<key>about</key>
+			<string>Key-tap haptics and a space-bar trackpad for the stock keyboard.</string>
+			<key>app</key>
+			<false/>
+			<key>howto</key>
+			<array>
+				<string>Type as usual: every key press gives a light tap.</string>
+				<string>Hold the space bar, then slide to move the cursor.</string>
+				<string>Tune it in Settings › KeyTick.</string>
+			</array>
+			<key>id</key>
+			<string>com.mbucc9000.keytick</string>
+			<key>name</key>
+			<string>KeyTick</string>
+			<key>public</key>
+			<true/>
+			<key>tagline</key>
+			<string>Keyboard haptics and a space-bar trackpad.</string>
+			<key>version</key>
+			<string>4.0.0</string>
+		</dict>
+		<dict>
+			<key>about</key>
+			<string>Swipe typing for the stock keyboard. Slide across a word's letters and lift.</string>
+			<key>app</key>
+			<false/>
+			<key>howto</key>
+			<array>
+				<string>Slide across a word's letters and lift to type it.</string>
+				<string>Hold at the end of a swipe, then slide sideways to pick another word.</string>
+				<string>Tap delete right after a swipe to remove the whole word.</string>
+				<string>Tune it in Settings › SwipeType.</string>
+			</array>
+			<key>id</key>
+			<string>com.mbucc9000.swipetype</string>
+			<key>name</key>
+			<string>SwipeType</string>
+			<key>public</key>
+			<true/>
+			<key>tagline</key>
+			<string>Swipe typing for the stock keyboard.</string>
+			<key>version</key>
+			<string>2.0.0</string>
+		</dict>
+		<dict>
+			<key>about</key>
+			<string>Taptic Engine style alert vibrations. Swaps the iPhone's long "DUUU DUUU" buzzes for short, sharp taps (single, double or triple) for texts, notifications and apps, reminders, the ring/silent switch, charging and calls, including vibrations picked in Settings &gt; Sounds. Strength, tap length and gap are adjustable. Takes effect after a reboot (or killall mediaserverd). Settings &gt; Taptic Alerts.</string>
+			<key>app</key>
+			<false/>
+			<key>howto</key>
+			<array>
+				<string>Reboot once after installing.</string>
+				<string>Settings › Taptic Alerts: pick a tap pattern for each alert type.</string>
+				<string>Adjust Strength, Tap Length and Gap. A preview plays as you slide.</string>
+			</array>
+			<key>id</key>
+			<string>com.mbucc9000.tapticalerts</string>
+			<key>name</key>
+			<string>Taptic Alerts</string>
+			<key>public</key>
+			<true/>
+			<key>tagline</key>
+			<string>Short, sharp taps instead of long buzzes.</string>
+			<key>version</key>
+			<string>1.1.0</string>
+		</dict>
+		<dict>
+			<key>about</key>
+			<string>A light iOS 12 style tick when the iPhone unlocks (slide to unlock, a correct passcode, or sliding a notification open) and when it locks (the sleep button or Auto-Lock); each can be turned off. Same feedback as KeyTick's key taps, and by default the same Strength and Length. Formerly UnlockTick. Settings &gt; TickLock.</string>
+			<key>app</key>
+			<false/>
+			<key>howto</key>
+			<array>
+				<string>Unlock as usual: you feel one light tick.</string>
+				<string>Settings › TickLock: tick on lock too, match KeyTick, or set your own strength and length.</string>
+			</array>
+			<key>id</key>
+			<string>com.mbucc9000.unlocktick</string>
+			<key>name</key>
+			<string>TickLock</string>
+			<key>public</key>
+			<true/>
+			<key>tagline</key>
+			<string>A light tick when you unlock (and lock).</string>
+			<key>version</key>
+			<string>1.2.0-1</string>
+		</dict>
+		<dict>
+			<key>about</key>
+			<string>Use Notification Center on the lock screen. Swipe down from the top edge to open it; swipe up from the bottom, press Home, or let the screen sleep to close it. Tapping a notification while locked just closes it, so nothing opens until you unlock. Settings &gt; LockNC.</string>
+			<key>app</key>
+			<false/>
+			<key>howto</key>
+			<array>
+				<string>On the lock screen, swipe down from the very top edge to open Notification Center.</string>
+				<string>Swipe up from the bottom, press Home, or let the screen sleep to close it.</string>
+				<string>Settings › LockNC: turn it off to put the lock screen back to stock.</string>
+			</array>
+			<key>id</key>
+			<string>com.mbucc9000.locknc</string>
+			<key>name</key>
+			<string>LockNC</string>
+			<key>public</key>
+			<true/>
+			<key>tagline</key>
+			<string>Notification Center on the lock screen.</string>
+			<key>version</key>
+			<string>1.4.1</string>
+		</dict>
+		<dict>
+			<key>about</key>
+			<string>Per-conversation chat wallpapers in Messages. Press and hold a conversation's background (or its title) to pick a preset or one of your photos.</string>
+			<key>app</key>
+			<false/>
+			<key>howto</key>
+			<array>
+				<string>In a conversation, press and hold the empty background or the title.</string>
+				<string>Pick a preset or Choose Photo. Pick None to go back to stock.</string>
+				<string>The Text Box slider at the top of the picker sets the box's opacity.</string>
+			</array>
+			<key>id</key>
+			<string>com.mbucc9000.messagewallpapers</string>
+			<key>name</key>
+			<string>MessageWallpapers</string>
+			<key>public</key>
+			<true/>
+			<key>tagline</key>
+			<string>A wallpaper for every conversation.</string>
+			<key>version</key>
+			<string>1.6.6</string>
+		</dict>
+		<dict>
+			<key>about</key>
+			<string>Login and 2FA codes texted to your main iPhone's number show up on this iPhone, as a notification from the real sender.</string>
+			<key>app</key>
+			<false/>
+			<key>howto</key>
+			<array>
+				<string>Set up the Shortcuts automation on your main iPhone (Main iPhone setup, below).</string>
+				<string>Codes then arrive on this iPhone as notifications from the real sender, with the code on the clipboard.</string>
+				<string>Settings › SMS Relay turns copying or duplicate hiding off.</string>
+			</array>
+			<key>id</key>
+			<string>com.mbucc9000.smsrelay</string>
+			<key>name</key>
+			<string>SMS Relay</string>
+			<key>public</key>
+			<true/>
+			<key>tagline</key>
+			<string>Your main iPhone's 2FA codes, on this one.</string>
+			<key>version</key>
+			<string>1.0.3</string>
+		</dict>
+		<dict>
+			<key>about</key>
+			<string>Everything AirPods on iOS 6 in one package. AirPodsReconnectFix by mikey820 (commissioned) keeps the AirPods connected and the audio routed to them. AirPodsIcon shows an AirPods icon in the status bar and trims " - Find My" from the AirPods name in Settings and audio pickers. AirPodsUnstick fixes the audio going silent or choppy after the AirPods connect, with no Siri or Bluetooth toggling needed. Recognises your AirPods by identity, so you can name them anything. Replaces the three separate packages.</string>
+			<key>app</key>
+			<false/>
+			<key>howto</key>
+			<array>
+				<string>Pair your AirPods as usual. Nothing to set up: the icon, reconnect fix and audio fix work automatically, whatever you name them.</string>
+			</array>
+			<key>id</key>
+			<string>com.mbucc9000.ultimateairpodsfix</string>
+			<key>name</key>
+			<string>Ultimate AirPods Fix</string>
+			<key>public</key>
+			<true/>
+			<key>tagline</key>
+			<string>AirPods on iOS 6, fixed: connection, icon and clean audio.</string>
+			<key>version</key>
+			<string>1.0.3</string>
+		</dict>
+		<dict>
+			<key>about</key>
+			<string>Give any Bluetooth device a nickname that only this iPhone shows. Settings &gt; Bluetooth &gt; tap the blue arrow next to a device &gt; Rename. The nickname shows in the Bluetooth list and on the device's page, in the audio / AirPlay pickers (app switcher, lock screen, apps) and in the in-call audio list. The device keeps its real name, and other tweaks (like Ultimate AirPods Fix) still see the real name. Empty the box or tap Use Real Name to undo.</string>
+			<key>app</key>
+			<false/>
+			<key>howto</key>
+			<array>
+				<string>Settings › Bluetooth › tap the blue arrow next to a device › Rename.</string>
+				<string>Type a nickname and tap Save. Empty the box or tap Use Real Name to undo.</string>
+			</array>
+			<key>id</key>
+			<string>com.mbucc9000.btrename</string>
+			<key>name</key>
+			<string>BTRename</string>
+			<key>public</key>
+			<true/>
+			<key>tagline</key>
+			<string>Nicknames for your Bluetooth devices, just on this iPhone.</string>
+			<key>version</key>
+			<string>1.0.0</string>
+		</dict>
+		<dict>
+			<key>about</key>
+			<string>Snapchat-style camera flip for the Camera app: double-tap the preview to switch between the back and front cameras, for photos and videos. While recording it flips without stopping: one continuous video, and the mic runs separately so audio keeps going through the flip.</string>
+			<key>app</key>
+			<false/>
+			<key>howto</key>
+			<array>
+				<string>In Camera, double-tap the preview to switch between the back and front cameras.</string>
+				<string>It works while recording too. Stop as usual: it's one video.</string>
+			</array>
+			<key>id</key>
+			<string>com.mbucc9000.cameraflip</string>
+			<key>name</key>
+			<string>CameraFlip</string>
+			<key>public</key>
+			<true/>
+			<key>tagline</key>
+			<string>Double-tap to flip cameras, Snapchat-style.</string>
+			<key>version</key>
+			<string>2.2.0</string>
+		</dict>
+		<dict>
+			<key>about</key>
+			<string>Make and receive VoIP.ms (SIP) calls through the stock Phone app. Dial as usual and the call goes over SIP; emergency numbers stay on cellular. Incoming calls ring with your ringtone, wake the screen and show a stock-style call screen. Needs a VoIP.ms account. Settings &gt; SIP Phone.</string>
+			<key>app</key>
+			<false/>
+			<key>howto</key>
+			<array>
+				<string>On voip.ms, create a sub-account. For incoming calls, get a number (DID) and route it to that sub-account.</string>
+				<string>Settings › SIP Phone: enter the server (like chicago4.voip.ms), the sub-account and its password, then turn on SIP enabled. Status shows Registered.</string>
+				<string>Dial from the Phone app as usual. Call 4443 for VoIP.ms's echo test.</string>
+			</array>
+			<key>id</key>
+			<string>com.mbucc9000.sipphone</string>
+			<key>name</key>
+			<string>SIP Phone</string>
+			<key>public</key>
+			<true/>
+			<key>tagline</key>
+			<string>VoIP.ms calls through the stock Phone app.</string>
+			<key>version</key>
+			<string>1.0.14</string>
+		</dict>
+		<dict>
+			<key>about</key>
+			<string>Sets up an iOS 6 iPhone for a US Mobile Dark Star SIM (AT&amp;T network) automatically: install it and cellular data and MMS are set up, with nothing to type in. Uninstalling puts back what was there before.</string>
+			<key>app</key>
+			<false/>
+			<key>howto</key>
+			<array>
+				<string>Put in your Dark Star SIM and install Dark Star APN.</string>
+				<string>Reboot once. Cellular data and MMS are set up for you.</string>
+			</array>
+			<key>id</key>
+			<string>com.mbucc9000.darkstarapn</string>
+			<key>name</key>
+			<string>Dark Star APN</string>
+			<key>public</key>
+			<true/>
+			<key>tagline</key>
+			<string>Dark Star SIMs, set up automatically.</string>
+			<key>version</key>
+			<string>2.0.2</string>
+		</dict>
+		<dict>
+			<key>about</key>
+			<string>Start a new message to someone you've texted before and your conversation with them shows right away, like iOS 7, instead of an empty screen until you send.</string>
+			<key>app</key>
+			<false/>
+			<key>howto</key>
+			<array>
+				<string>In Messages, tap compose and pick someone you've texted before.</string>
+				<string>Your conversation with them shows under To: right away. Nothing to set up.</string>
+			</array>
+			<key>id</key>
+			<string>com.mbucc9000.composehistory</string>
+			<key>name</key>
+			<string>ComposeHistory</string>
+			<key>public</key>
+			<true/>
+			<key>tagline</key>
+			<string>See your old texts when you start a new message.</string>
+			<key>version</key>
+			<string>1.0.2</string>
+		</dict>
+		<dict>
+			<key>about</key>
+			<string>Shows tapback reactions in iOS 6 Messages, in stock iOS 6 style. Reacting and swipe-to-reply are optional and off by default; they send plain text, not real reactions.</string>
+			<key>app</key>
+			<false/>
+			<key>howto</key>
+			<array>
+				<string>Nothing to set up: reactions people send you show as badges on the bubbles.</string>
+				<string>To react or reply yourself, turn on React &amp; Reply in Settings › Reactions, then double-tap a bubble or drag it right. These send plain text, not real tapbacks.</string>
+			</array>
+			<key>id</key>
+			<string>com.mbucc9000.reactions</string>
+			<key>name</key>
+			<string>Reactions</string>
+			<key>public</key>
+			<true/>
+			<key>tagline</key>
+			<string>Tapback reactions from newer iPhones, as badges.</string>
+			<key>version</key>
+			<string>2.1.2</string>
+		</dict>
+		<dict>
+			<key>about</key>
+			<string>Tracks how long you spend in each app (screen on and unlocked only). See Settings &gt; App Time for Today, Last 7 Days and All Time.</string>
+			<key>app</key>
+			<false/>
+			<key>howto</key>
+			<array>
+				<string>Use your iPhone as usual.</string>
+				<string>Settings › App Time shows Today, Last 7 Days and All Time. Reset is there too.</string>
+			</array>
+			<key>id</key>
+			<string>com.mbucc9000.apptime</string>
+			<key>name</key>
+			<string>AppTime</string>
+			<key>public</key>
+			<true/>
+			<key>tagline</key>
+			<string>See where your screen time goes.</string>
+			<key>version</key>
+			<string>1.0.0</string>
+		</dict>
+		<dict>
+			<key>about</key>
+			<string>Swipe left in a Messages conversation to see when each message was sent, like iOS 7.</string>
+			<key>app</key>
+			<false/>
+			<key>howto</key>
+			<array>
+				<string>In a conversation, drag left to reveal each message's time. Let go to hide them.</string>
+			</array>
+			<key>id</key>
+			<string>com.mbucc9000.messagetimes</string>
+			<key>name</key>
+			<string>MessageTimes</string>
+			<key>public</key>
+			<true/>
+			<key>tagline</key>
+			<string>Swipe left to see when messages were sent.</string>
+			<key>version</key>
+			<string>1.0.0</string>
+		</dict>
+		<dict>
+			<key>about</key>
+			<string>Schedule a text in Messages. Type your message, touch and hold Send, and pick a time. Your iPhone sends it then, even if Messages is closed or the phone is asleep. Touch and hold Send again to see, change, send now or cancel what's scheduled in that conversation.</string>
+			<key>app</key>
+			<false/>
+			<key>howto</key>
+			<array>
+				<string>In a conversation, type your message, then touch and hold Send.</string>
+				<string>Tap Send Later…, pick a time and tap Schedule.</string>
+				<string>To see, change or cancel it, touch and hold Send again and tap Scheduled Messages.</string>
+			</array>
+			<key>id</key>
+			<string>com.mbucc9000.sendlater</string>
+			<key>name</key>
+			<string>Send Later</string>
+			<key>public</key>
+			<true/>
+			<key>tagline</key>
+			<string>Schedule a text to send later.</string>
+			<key>version</key>
+			<string>1.0.0</string>
+		</dict>
+		<dict>
+			<key>about</key>
+			<string>iOS 10-style link previews in Messages. A message that's just a link shows as a card with the page's picture, title and site; a link inside other text gets the card above its bubble. Tap a card to open the link, or touch and hold to copy it. Everything loads on this iPhone, straight from each website. For modern HTTPS sites, install TLSFix and its certificates. Settings &gt; Link Previews.</string>
+			<key>app</key>
+			<false/>
+			<key>howto</key>
+			<array>
+				<string>For modern HTTPS sites, install TLSFix from Cydia, then open tlsroot.litten.ca in Safari and install its certificates.</string>
+				<string>Send or receive a link in Messages: a link on its own becomes a preview card, and a link inside other text gets the card above its bubble.</string>
+				<string>Tap the card to open the link, or touch and hold it to copy the link.</string>
+				<string>Choose what loads in Settings › Link Previews.</string>
+			</array>
+			<key>id</key>
+			<string>com.mbucc9000.linkpreviews</string>
+			<key>name</key>
+			<string>Link Previews</string>
+			<key>public</key>
+			<true/>
+			<key>tagline</key>
+			<string>iOS 10-style link previews in Messages.</string>
+			<key>version</key>
+			<string>1.1.0</string>
+		</dict>
+		<dict>
+			<key>about</key>
+			<string>Saves front-camera photos and videos mirrored, exactly as the preview shows them. Works in Camera and in the lock screen camera.</string>
+			<key>app</key>
+			<false/>
+			<key>howto</key>
+			<array>
+				<string>Nothing to set up: take a front-camera photo or video and it saves the way the preview looked.</string>
+			</array>
+			<key>id</key>
+			<string>com.mbucc9000.mirrorfront</string>
+			<key>name</key>
+			<string>MirrorFront</string>
+			<key>public</key>
+			<true/>
+			<key>tagline</key>
+			<string>Front-camera shots, saved the way you saw them.</string>
+			<key>version</key>
+			<string>1.0.0</string>
+		</dict>
+		<dict>
+			<key>about</key>
+			<string>For Instagram 6.5.1 running on an Xstragram server.</string>
+			<key>app</key>
+			<false/>
+			<key>howto</key>
+			<array>
+				<string>Open Instagram 6.5.1 signed in to your Xstragram server.</string>
+				<string>Albums show a 1/4 badge: swipe sideways. Pinch any feed photo to zoom.</string>
+			</array>
+			<key>id</key>
+			<string>com.mbucc9000.xgalbums</string>
+			<key>name</key>
+			<string>XGAlbums</string>
+			<key>public</key>
+			<true/>
+			<key>tagline</key>
+			<string>Albums, music and zoom for Instagram 6.</string>
+			<key>version</key>
+			<string>1.4.0</string>
+		</dict>
+		<dict>
+			<key>about</key>
+			<string>Removes the local password/passcode re-authentication prompt from Find My Friends.</string>
+			<key>app</key>
+			<false/>
+			<key>howto</key>
+			<array>
+				<string>Open Find My Friends: no password prompt.</string>
+			</array>
+			<key>id</key>
+			<string>com.mbucc9000.nofmfreauth</string>
+			<key>name</key>
+			<string>NoFMFReauth</string>
+			<key>public</key>
+			<true/>
+			<key>tagline</key>
+			<string>Find My Friends stops asking for your password.</string>
+			<key>version</key>
+			<string>1.0.1</string>
+		</dict>
+		<dict>
+			<key>about</key>
+			<string>Gives iFile a proper iOS 6 icon on the home screen: rounded corners and gloss instead of a flat square, using the classic artwork if you supply it.</string>
+			<key>app</key>
+			<false/>
+			<key>howto</key>
+			<array>
+				<string>Respring after installing and iFile's icon changes.</string>
+				<string>Optional: put your own art at /Library/ClassicIFile/Icon@2x.png.</string>
+			</array>
+			<key>id</key>
+			<string>com.mbucc9000.classicifile</string>
+			<key>name</key>
+			<string>ClassiciFile</string>
+			<key>public</key>
+			<true/>
+			<key>tagline</key>
+			<string>iFile gets its classic icon back.</string>
+			<key>version</key>
+			<string>1.1.1</string>
+		</dict>
+		<dict>
+			<key>about</key>
+			<string>Flappy Bird 1.1.0 only draws every other frame. This copy draws every frame, at the same game speed.</string>
+			<key>app</key>
+			<true/>
+			<key>howto</key>
+			<array>
+				<string>Open Flappy 60FPS from the home screen and play as usual.</string>
+			</array>
+			<key>id</key>
+			<string>com.mbucc9000.flappybird60fps</string>
+			<key>name</key>
+			<string>Flappy 60FPS</string>
+			<key>public</key>
+			<true/>
+			<key>tagline</key>
+			<string>Flappy Bird, drawn at a smooth 60fps.</string>
+			<key>version</key>
+			<string>1.1.0-3</string>
+		</dict>
+		<dict>
+			<key>about</key>
+			<string>Flappy Bird 1.1.0 with a shop on the title screen. Unlock hats and skins with your best score or buy them with points, and record your own sounds.</string>
+			<key>app</key>
+			<true/>
+			<key>howto</key>
+			<array>
+				<string>Open Flappy Hats and tap SHOP on the title screen.</string>
+				<string>In HATS or SKINS, tap an item to preview it, then tap EQUIP or BUY. DEFAULT at the top is the stock look.</string>
+				<string>Score Rewards unlock as your best score goes up. Every game adds your score to your points.</string>
+				<string>In SOUND, pick FLAP, POINT or GAME OVER, then hold HOLD TO RECORD (up to 2 seconds). Tap PLAY to hear it and USE to keep it. RESET goes back to the stock sound.</string>
+				<string>Drag VOLUME to set that sound's loudness, from 0 to 200%. On FLAP, VIBRATE turns the flap tick on or off.</string>
+			</array>
+			<key>id</key>
+			<string>com.mbucc9000.flappyhats</string>
+			<key>name</key>
+			<string>Flappy Hats</string>
+			<key>public</key>
+			<false/>
+			<key>tagline</key>
+			<string>Flappy Bird with hats, skins and your own sounds.</string>
+			<key>version</key>
+			<string>1.0.0</string>
+		</dict>
+	</array>
+	<key>repo</key>
+	<string>https://mbucc9000.github.io/slopkit/</string>
+	<key>settingsTagline</key>
+	<string>Homemade tweaks for iOS 6</string>
+	<key>tagline</key>
+	<string>slopkit is homemade tweaks for iOS 6, cooked up with Claude.</string>
+</dict>
+</plist>

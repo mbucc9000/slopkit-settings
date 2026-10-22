@@ -1,0 +1,10 @@
+{
+	entry = {
+		bundle = SlopKitPrefs;
+		cell = PSLinkCell;
+		detail = SKRootListController;
+		icon = icon.png;
+		isController = 1;
+		label = "slopkit";
+	};
+}
