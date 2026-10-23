@@ -275,6 +275,29 @@
 		</dict>
 		<dict>
 			<key>about</key>
+			<string>Make and receive VoIP.ms (SIP) calls through the stock Phone app. Dial as usual and the call goes over SIP; emergency numbers stay on cellular. Incoming calls ring with your ringtone, wake the screen and show a stock-style call screen. Needs a VoIP.ms account. Settings &gt; SIP Phone.</string>
+			<key>app</key>
+			<false/>
+			<key>howto</key>
+			<array>
+				<string>On voip.ms, create a sub-account. For incoming calls, get a number (DID) and route it to that sub-account.</string>
+				<string>Settings › SIP Phone: enter the server (like chicago4.voip.ms), the sub-account and its password, then turn on SIP enabled. Status shows Registered.</string>
+				<string>Dial from the Phone app as usual. Call 4443 for VoIP.ms's echo test.</string>
+				<string>To encrypt your calls: go to voip.ms, log in, go to Sub Accounts, then Manage Sub Accounts, and switch Encrypted SIP Traffic to Yes. Then in Settings › SIP Phone › Security, turn on Encrypted calls. Both must be on together.</string>
+			</array>
+			<key>id</key>
+			<string>com.mbucc9000.sipphone</string>
+			<key>name</key>
+			<string>SIP Phone</string>
+			<key>public</key>
+			<true/>
+			<key>tagline</key>
+			<string>VoIP.ms calls through the stock Phone app.</string>
+			<key>version</key>
+			<string>1.1.0</string>
+		</dict>
+		<dict>
+			<key>about</key>
 			<string>Sets up an iOS 6 iPhone for a US Mobile Dark Star SIM (AT&amp;T network) automatically: install it and cellular data and MMS are set up, with nothing to type in. Uninstalling puts back what was there before.</string>
 			<key>app</key>
 			<false/>
@@ -522,7 +545,57 @@
 			<key>tagline</key>
 			<string>Flappy Bird, drawn at a smooth 60fps.</string>
 			<key>version</key>
-			<string>1.1.0-3</string>
+			<string>1.1.0-4</string>
+		</dict>
+		<dict>
+			<key>about</key>
+			<string>Flappy Bird 1.1.0 with a shop on the title screen. Unlock hats and skins with your best score or buy them with points, and record your own sounds.</string>
+			<key>app</key>
+			<true/>
+			<key>howto</key>
+			<array>
+				<string>Open Flappy Hats and tap SHOP on the title screen.</string>
+				<string>In HATS or SKINS, tap an item to preview it, then tap EQUIP or BUY. DEFAULT at the top is the stock look.</string>
+				<string>Press and hold the cat ears or the cat skin to pick one of its colours.</string>
+				<string>Score Rewards unlock as your best score goes up. Every game adds your score to your points.</string>
+				<string>In SOUND, pick FLAP, POINT or GAME OVER, then hold HOLD TO RECORD (up to 2 seconds). Tap PLAY to hear it and USE to keep it. RESET goes back to the stock sound.</string>
+				<string>Drag VOLUME to set that sound's loudness, from 0 to 200%. On FLAP, VIBRATE turns the flap tick on or off.</string>
+			</array>
+			<key>id</key>
+			<string>com.mbucc9000.flappyhats</string>
+			<key>name</key>
+			<string>Flappy Hats</string>
+			<key>public</key>
+			<true/>
+			<key>tagline</key>
+			<string>Flappy Bird with hats, skins and your own sounds.</string>
+			<key>version</key>
+			<string>1.1.1</string>
+		</dict>
+		<dict>
+			<key>about</key>
+			<string>Flappy Hats on the 60fps Flappy Bird: the same shop, hats, skins and sounds, drawn every frame at the same game speed.</string>
+			<key>app</key>
+			<true/>
+			<key>howto</key>
+			<array>
+				<string>Open Hats 60FPS and tap SHOP on the title screen.</string>
+				<string>In HATS or SKINS, tap an item to preview it, then tap EQUIP or BUY. DEFAULT at the top is the stock look.</string>
+				<string>Press and hold the cat ears or the cat skin to pick one of its colours.</string>
+				<string>Score Rewards unlock as your best score goes up. Every game adds your score to your points.</string>
+				<string>In SOUND, pick FLAP, POINT or GAME OVER, then hold HOLD TO RECORD (up to 2 seconds). Tap PLAY to hear it and USE to keep it. RESET goes back to the stock sound.</string>
+				<string>Drag VOLUME to set that sound's loudness, from 0 to 200%. On FLAP, VIBRATE turns the flap tick on or off.</string>
+			</array>
+			<key>id</key>
+			<string>com.mbucc9000.flappyhats60fps</string>
+			<key>name</key>
+			<string>Flappy Hats 60FPS</string>
+			<key>public</key>
+			<true/>
+			<key>tagline</key>
+			<string>Flappy Hats, drawn at a smooth 60fps.</string>
+			<key>version</key>
+			<string>1.0.0</string>
 		</dict>
 	</array>
 	<key>repo</key>
