@@ -571,7 +571,7 @@
 			<key>tagline</key>
 			<string>Flappy Bird with hats, skins and your own sounds.</string>
 			<key>version</key>
-			<string>1.1.1</string>
+			<string>1.1.2</string>
 		</dict>
 		<dict>
 			<key>about</key>
@@ -596,7 +596,7 @@
 			<key>tagline</key>
 			<string>Flappy Hats, drawn at a smooth 60fps.</string>
 			<key>version</key>
-			<string>1.0.0</string>
+			<string>1.0.1</string>
 		</dict>
 	</array>
 	<key>repo</key>
