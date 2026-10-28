@@ -169,6 +169,27 @@
 		</dict>
 		<dict>
 			<key>about</key>
+			<string>Swipe a notification banner up to dismiss it, like newer iOS. The banner follows your finger and flies off the top; it stays in Notification Center, just like one that timed out. Tapping and pulling a banner down work as before. Settings &gt; BannerSwipe.</string>
+			<key>app</key>
+			<false/>
+			<key>howto</key>
+			<array>
+				<string>When a banner shows up, swipe it up to dismiss it.</string>
+				<string>Turn it off or on in Settings &gt; BannerSwipe.</string>
+			</array>
+			<key>id</key>
+			<string>com.mbucc9000.bannerswipe</string>
+			<key>name</key>
+			<string>BannerSwipe</string>
+			<key>public</key>
+			<true/>
+			<key>tagline</key>
+			<string>Swipe banners up to dismiss them.</string>
+			<key>version</key>
+			<string>1.0.0</string>
+		</dict>
+		<dict>
+			<key>about</key>
 			<string>Per-conversation chat wallpapers in Messages. Press and hold a conversation's background (or its title) to pick a preset or one of your photos.</string>
 			<key>app</key>
 			<false/>
@@ -506,6 +527,28 @@
 			<string>Find My Friends stops asking for your password.</string>
 			<key>version</key>
 			<string>1.0.1</string>
+		</dict>
+		<dict>
+			<key>about</key>
+			<string>Find My Friends on iOS 6: satellite view with a Standard / Satellite / Hybrid button on the map, and little name tags above everyone so you can see who is who without tapping.</string>
+			<key>app</key>
+			<false/>
+			<key>howto</key>
+			<array>
+				<string>Open Find My Friends. The map starts in Satellite.</string>
+				<string>On a full-screen map (tap the small map on the All list, or open a friend), tap the button in the bottom-left corner to switch between Standard, Satellite and Hybrid.</string>
+				<string>Names show above everyone's dots. Tap a dot for the full details, as before.</string>
+			</array>
+			<key>id</key>
+			<string>com.mbucc9000.fmfmapplus</string>
+			<key>name</key>
+			<string>FMF Map Plus</string>
+			<key>public</key>
+			<true/>
+			<key>tagline</key>
+			<string>Satellite view and name tags in Find My Friends.</string>
+			<key>version</key>
+			<string>1.0.0</string>
 		</dict>
 		<dict>
 			<key>about</key>
