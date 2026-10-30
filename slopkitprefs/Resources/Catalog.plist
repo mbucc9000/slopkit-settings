@@ -469,6 +469,28 @@
 		</dict>
 		<dict>
 			<key>about</key>
+			<string>Shows HEIC photos in Messages. Newer iPhones send camera photos as HEIC, which iOS 6 can't open, so they arrive as broken file bubbles. HEICFix makes a JPEG copy of each one on this iPhone, and Messages shows it like any other photo: in the chat, full screen, and when you save it. The original file is never changed.</string>
+			<key>app</key>
+			<false/>
+			<key>howto</key>
+			<array>
+				<string>Install HEICFix, then open Messages.</string>
+				<string>HEIC photos you already have turn into normal photos a few seconds later, and new ones convert as they arrive.</string>
+				<string>There's nothing to set up.</string>
+			</array>
+			<key>id</key>
+			<string>com.mbucc9000.heicfix</string>
+			<key>name</key>
+			<string>HEICFix</string>
+			<key>public</key>
+			<true/>
+			<key>tagline</key>
+			<string>HEIC photos show up in Messages.</string>
+			<key>version</key>
+			<string>1.0.0</string>
+		</dict>
+		<dict>
+			<key>about</key>
 			<string>Saves front-camera photos and videos mirrored, exactly as the preview shows them. Works in Camera and in the lock screen camera.</string>
 			<key>app</key>
 			<false/>
