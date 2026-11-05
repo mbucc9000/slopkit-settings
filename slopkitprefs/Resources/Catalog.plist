@@ -536,6 +536,29 @@
 		</dict>
 		<dict>
 			<key>about</key>
+			<string>Gmail-style inbox tabs for iOS 6 Mail. Mail is sorted into Primary, Social, Promotions, Updates and Forums, each a mailbox under All Inboxes with an unread count, plus a colored tab bar to switch between them. On Gmail accounts Gmail itself does the sorting, so it matches the Gmail app. A thread opens as one Gmail-style conversation with your own replies in it, you can copy text from any email, and the title switches between accounts. Settings &gt; NewMail.</string>
+			<key>app</key>
+			<false/>
+			<key>howto</key>
+			<array>
+				<string>Install NewMail and open Mail. Primary, Social, Promotions, Updates and Forums appear under All Inboxes.</string>
+				<string>Open a tab. Use the colored bar at the top to switch tabs, or tap the title to pick an account.</string>
+				<string>Tap a thread to read the whole conversation, with your replies in it. Pull down to refresh.</string>
+				<string>Hide tabs, or turn off Gmail's sorting, Conversation View, the tab bar or sender pictures, in Settings › NewMail.</string>
+			</array>
+			<key>id</key>
+			<string>com.mbucc9000.newmail</string>
+			<key>name</key>
+			<string>NewMail</string>
+			<key>public</key>
+			<true/>
+			<key>tagline</key>
+			<string>Gmail-style tabs for Mail.</string>
+			<key>version</key>
+			<string>1.0.0</string>
+		</dict>
+		<dict>
+			<key>about</key>
 			<string>Saves front-camera photos and videos mirrored, exactly as the preview shows them. Works in Camera and in the lock screen camera.</string>
 			<key>app</key>
 			<false/>
