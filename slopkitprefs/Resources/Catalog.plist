@@ -59,6 +59,28 @@
 		</dict>
 		<dict>
 			<key>about</key>
+			<string>Point the camera at a QR code and it's read right away. Open the link, call the number, or copy the text or Wi-Fi password.</string>
+			<key>app</key>
+			<true/>
+			<key>howto</key>
+			<array>
+				<string>Open QR Scanner and point the camera at a QR code.</string>
+				<string>When it's read, tap the card's action (Open in Safari, Call, Send Email and so on) or Copy. Done goes back to scanning.</string>
+				<string>To read a code in a picture, tap Photos and pick it. In the dark, tap Light.</string>
+			</array>
+			<key>id</key>
+			<string>com.mbucc9000.qrscanner</string>
+			<key>name</key>
+			<string>QR Scanner</string>
+			<key>public</key>
+			<true/>
+			<key>tagline</key>
+			<string>A simple QR code scanner.</string>
+			<key>version</key>
+			<string>1.0.0</string>
+		</dict>
+		<dict>
+			<key>about</key>
 			<string>Key-tap haptics and a space-bar trackpad for the stock keyboard.</string>
 			<key>app</key>
 			<false/>
