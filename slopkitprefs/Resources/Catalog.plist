@@ -513,6 +513,29 @@
 		</dict>
 		<dict>
 			<key>about</key>
+			<string>GIPHY GIFs in Messages. Touch and hold the camera button in a conversation, browse or search GIFs, and tap one to add it to your message. Needs a free GIPHY API key and TLSFix. Settings &gt; Message GIFs.</string>
+			<key>app</key>
+			<false/>
+			<key>howto</key>
+			<array>
+				<string>Install TLSFix from Cydia, then open tlsroot.litten.ca in Safari and install its certificates.</string>
+				<string>Make a free API key at developers.giphy.com (Create an App, choose API) and copy it.</string>
+				<string>In Messages, touch and hold the camera button and tap Paste Key, or enter the key in Settings › Message GIFs.</string>
+				<string>Touch and hold the camera button, find a GIF, and tap it to add it to your message.</string>
+			</array>
+			<key>id</key>
+			<string>com.mbucc9000.messagegifs</string>
+			<key>name</key>
+			<string>Message GIFs</string>
+			<key>public</key>
+			<true/>
+			<key>tagline</key>
+			<string>GIPHY GIFs in Messages.</string>
+			<key>version</key>
+			<string>1.0.0</string>
+		</dict>
+		<dict>
+			<key>about</key>
 			<string>Saves front-camera photos and videos mirrored, exactly as the preview shows them. Works in Camera and in the lock screen camera.</string>
 			<key>app</key>
 			<false/>
