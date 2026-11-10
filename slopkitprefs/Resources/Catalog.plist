@@ -318,6 +318,28 @@
 		</dict>
 		<dict>
 			<key>about</key>
+			<string>Adds the level from newer iPhones to the Camera grid. A line in the middle of the preview tilts as you tilt the phone and turns yellow when the shot is perfectly level. Shows whenever Grid is on.</string>
+			<key>app</key>
+			<false/>
+			<key>howto</key>
+			<array>
+				<string>In Camera, tap Options and turn Grid on.</string>
+				<string>Hold the phone about level: a line shows in the middle of the grid.</string>
+				<string>Tilt until the line closes up and turns yellow, then take the shot.</string>
+			</array>
+			<key>id</key>
+			<string>com.mbucc9000.cameralevel</string>
+			<key>name</key>
+			<string>CameraLevel</string>
+			<key>public</key>
+			<true/>
+			<key>tagline</key>
+			<string>The level from newer iPhones, on the Camera grid.</string>
+			<key>version</key>
+			<string>1.0.0</string>
+		</dict>
+		<dict>
+			<key>about</key>
 			<string>Make and receive VoIP.ms (SIP) calls through the stock Phone app. Dial as usual and the call goes over SIP; emergency numbers stay on cellular. Incoming calls ring with your ringtone, wake the screen and show a stock-style call screen. Needs a VoIP.ms account. Settings &gt; SIP Phone.</string>
 			<key>app</key>
 			<false/>
