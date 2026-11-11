@@ -685,6 +685,49 @@
 		</dict>
 		<dict>
 			<key>about</key>
+			<string>Cydia stays in the background when you press the home button instead of quitting, so it opens right where you left it with no "Reloading Data" wait. Uses Cydia's own iOS 8 background mode: it still reloads if packages change while it's away. iOS closes it like any other app if memory runs low. Installs Vnode Limit too, so Cydia refreshes don't run iOS 6 out of open files.</string>
+			<key>app</key>
+			<false/>
+			<key>howto</key>
+			<array>
+				<string>Open Cydia and let it load.</string>
+				<string>Press Home. Cydia stays in the app switcher instead of quitting.</string>
+				<string>Open Cydia again and it's right where you left it.</string>
+			</array>
+			<key>id</key>
+			<string>com.mbucc9000.keepcydia</string>
+			<key>name</key>
+			<string>KeepCydia</string>
+			<key>public</key>
+			<true/>
+			<key>tagline</key>
+			<string>Cydia stays open in the background, like on iOS 8.</string>
+			<key>version</key>
+			<string>1.0.3</string>
+		</dict>
+		<dict>
+			<key>about</key>
+			<string>Raises iOS 6's open-file (vnode) limit from 1250 to 3000 at every boot. With many tweaks, a Cydia refresh fills the stock table and iOS kills apps, Cydia included, to make room. Costs about 1 MB of kernel memory. Remove it and reboot to go back to 1250.</string>
+			<key>app</key>
+			<false/>
+			<key>howto</key>
+			<array>
+				<string>Install it. The new limit applies right away and at every boot.</string>
+				<string>There's nothing to open or set. To undo it, remove Vnode Limit and reboot.</string>
+			</array>
+			<key>id</key>
+			<string>com.mbucc9000.vnodelimit</string>
+			<key>name</key>
+			<string>Vnode Limit</string>
+			<key>public</key>
+			<true/>
+			<key>tagline</key>
+			<string>Stops iOS 6 closing your apps when it runs out of open files.</string>
+			<key>version</key>
+			<string>1.0.0</string>
+		</dict>
+		<dict>
+			<key>about</key>
 			<string>Flappy Bird 1.1.0 only draws every other frame. This copy draws every frame, at the same game speed.</string>
 			<key>app</key>
 			<true/>
