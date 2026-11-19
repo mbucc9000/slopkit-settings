@@ -406,13 +406,14 @@
 		</dict>
 		<dict>
 			<key>about</key>
-			<string>Shows tapback reactions in iOS 6 Messages, in stock iOS 6 style. Reacting and swipe-to-reply are optional and off by default; they send plain text, not real reactions.</string>
+			<string>Tapback badges, edited messages and native iMessage reaction sending for iOS 6 Messages.</string>
 			<key>app</key>
 			<false/>
 			<key>howto</key>
 			<array>
-				<string>Nothing to set up: reactions people send you show as badges on the bubbles.</string>
-				<string>To react or reply yourself, turn on React &amp; Reply in Settings › Reactions, then double-tap a bubble or drag it right. These send plain text, not real tapbacks.</string>
+				<string>Incoming reactions show as badges automatically. Show Edits updates matching original bubbles.</string>
+				<string>Enable React &amp; Reply in Settings &gt; Reactions, then double-tap a bubble and choose a reaction. Native sending requires iMessage.</string>
+				<string>Hold a bubble for Copy. Optional swipe replies still arrive as ordinary text, without an inline quote.</string>
 			</array>
 			<key>id</key>
 			<string>com.mbucc9000.reactions</string>
@@ -421,9 +422,9 @@
 			<key>public</key>
 			<true/>
 			<key>tagline</key>
-			<string>Tapback reactions from newer iPhones, as badges.</string>
+			<string>Send native iMessage reactions from iOS 6.</string>
 			<key>version</key>
-			<string>2.1.2</string>
+			<string>2.3.0</string>
 		</dict>
 		<dict>
 			<key>about</key>
