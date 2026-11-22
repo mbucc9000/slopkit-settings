@@ -17,177 +17,24 @@
 	<array>
 		<dict>
 			<key>about</key>
-			<string>An unofficial Spotify client for iOS 6, which also runs on iOS 5. Music streams from your own Encore Bridge, which you run on a computer at home (Windows or Docker). Needs Spotify Premium. Not made by, affiliated with or endorsed by Spotify.</string>
+			<string>Tracks how long you spend in each app (screen on and unlocked only). See Settings &gt; App Time for Today, Last 7 Days and All Time.</string>
 			<key>app</key>
-			<true/>
+			<false/>
 			<key>howto</key>
 			<array>
-				<string>Run Encore Bridge at home (Windows installer or Docker) and follow its setup guide.</string>
-				<string>Install Encore from slopkit, open it and pair it with the bridge.</string>
+				<string>Use your iPhone as usual.</string>
+				<string>Settings › App Time shows Today, Last 7 Days and All Time. Reset is there too.</string>
 			</array>
 			<key>id</key>
-			<string>com.mbucc9000.encore</string>
+			<string>com.mbucc9000.apptime</string>
 			<key>name</key>
-			<string>Encore</string>
+			<string>AppTime</string>
 			<key>public</key>
 			<true/>
 			<key>tagline</key>
-			<string>Spotify, back on iOS 6.</string>
-			<key>version</key>
-			<string>1.7.0</string>
-		</dict>
-		<dict>
-			<key>about</key>
-			<string>An unofficial Venmo client for iOS 6. It talks to Venmo straight from your phone; there's no server to run. Needs TLSFix (and its certificates) for modern HTTPS, and a computer once to copy your device ID. Venmo's terms don't allow unofficial apps and Venmo can limit accounts over it. Not made by, affiliated with or endorsed by Venmo or PayPal.</string>
-			<key>app</key>
-			<true/>
-			<key>howto</key>
-			<array>
-				<string>Install TLSFix first.</string>
-				<string>Open Venn and follow the built-in setup guide: device ID, sign in, then set a PIN.</string>
-			</array>
-			<key>id</key>
-			<string>com.mbucc9000.venn</string>
-			<key>name</key>
-			<string>Venn</string>
-			<key>public</key>
-			<true/>
-			<key>tagline</key>
-			<string>Venmo, back on iOS 6.</string>
-			<key>version</key>
-			<string>1.0.4</string>
-		</dict>
-		<dict>
-			<key>about</key>
-			<string>Point the camera at a QR code and it's read right away. Open the link, call the number, or copy the text or Wi-Fi password.</string>
-			<key>app</key>
-			<true/>
-			<key>howto</key>
-			<array>
-				<string>Open QR Scanner and point the camera at a QR code.</string>
-				<string>When it's read, tap the card's action (Open in Safari, Call, Send Email and so on) or Copy. Done goes back to scanning.</string>
-				<string>To read a code in a picture, tap Photos and pick it. In the dark, tap Light.</string>
-			</array>
-			<key>id</key>
-			<string>com.mbucc9000.qrscanner</string>
-			<key>name</key>
-			<string>QR Scanner</string>
-			<key>public</key>
-			<true/>
-			<key>tagline</key>
-			<string>A simple QR code scanner.</string>
+			<string>See where your screen time goes.</string>
 			<key>version</key>
 			<string>1.0.0</string>
-		</dict>
-		<dict>
-			<key>about</key>
-			<string>Key-tap haptics and a space-bar trackpad for the stock keyboard.</string>
-			<key>app</key>
-			<false/>
-			<key>howto</key>
-			<array>
-				<string>Type as usual: every key press gives a light tap.</string>
-				<string>Hold the space bar, then slide to move the cursor.</string>
-				<string>Tune it in Settings › KeyTick.</string>
-			</array>
-			<key>id</key>
-			<string>com.mbucc9000.keytick</string>
-			<key>name</key>
-			<string>KeyTick</string>
-			<key>public</key>
-			<true/>
-			<key>tagline</key>
-			<string>Keyboard haptics and a space-bar trackpad.</string>
-			<key>version</key>
-			<string>4.0.0</string>
-		</dict>
-		<dict>
-			<key>about</key>
-			<string>Swipe typing for the stock keyboard. Slide across a word's letters and lift.</string>
-			<key>app</key>
-			<false/>
-			<key>howto</key>
-			<array>
-				<string>Slide across a word's letters and lift to type it.</string>
-				<string>Hold at the end of a swipe, then slide sideways to pick another word.</string>
-				<string>Tap delete right after a swipe to remove the whole word.</string>
-				<string>Tune it in Settings › SwipeType.</string>
-			</array>
-			<key>id</key>
-			<string>com.mbucc9000.swipetype</string>
-			<key>name</key>
-			<string>SwipeType</string>
-			<key>public</key>
-			<true/>
-			<key>tagline</key>
-			<string>Swipe typing for the stock keyboard.</string>
-			<key>version</key>
-			<string>2.0.0</string>
-		</dict>
-		<dict>
-			<key>about</key>
-			<string>Taptic Engine style alert vibrations. Swaps the iPhone's long "DUUU DUUU" buzzes for short, sharp taps (single, double or triple) for texts, notifications and apps, reminders, the ring/silent switch, charging and calls, including vibrations picked in Settings &gt; Sounds. Strength, tap length and gap are adjustable. Takes effect after a reboot (or killall mediaserverd). Settings &gt; Taptic Alerts.</string>
-			<key>app</key>
-			<false/>
-			<key>howto</key>
-			<array>
-				<string>Reboot once after installing.</string>
-				<string>Settings › Taptic Alerts: pick a tap pattern for each alert type.</string>
-				<string>Adjust Strength, Tap Length and Gap. A preview plays as you slide.</string>
-			</array>
-			<key>id</key>
-			<string>com.mbucc9000.tapticalerts</string>
-			<key>name</key>
-			<string>Taptic Alerts</string>
-			<key>public</key>
-			<true/>
-			<key>tagline</key>
-			<string>Short, sharp taps instead of long buzzes.</string>
-			<key>version</key>
-			<string>1.1.0</string>
-		</dict>
-		<dict>
-			<key>about</key>
-			<string>A light iOS 12 style tick when the iPhone unlocks (slide to unlock, a correct passcode, or sliding a notification open) and when it locks (the sleep button or Auto-Lock); each can be turned off. Same feedback as KeyTick's key taps, and by default the same Strength and Length. Formerly UnlockTick. Settings &gt; TickLock.</string>
-			<key>app</key>
-			<false/>
-			<key>howto</key>
-			<array>
-				<string>Unlock as usual: you feel one light tick.</string>
-				<string>Settings › TickLock: tick on lock too, match KeyTick, or set your own strength and length.</string>
-			</array>
-			<key>id</key>
-			<string>com.mbucc9000.unlocktick</string>
-			<key>name</key>
-			<string>TickLock</string>
-			<key>public</key>
-			<true/>
-			<key>tagline</key>
-			<string>A light tick when you unlock (and lock).</string>
-			<key>version</key>
-			<string>1.2.0-1</string>
-		</dict>
-		<dict>
-			<key>about</key>
-			<string>Use Notification Center on the lock screen. Swipe down from the top edge to open it; swipe up from the bottom, press Home, or let the screen sleep to close it. Tapping a notification while locked just closes it, so nothing opens until you unlock. Settings &gt; LockNC.</string>
-			<key>app</key>
-			<false/>
-			<key>howto</key>
-			<array>
-				<string>On the lock screen, swipe down from the very top edge to open Notification Center.</string>
-				<string>Swipe up from the bottom, press Home, or let the screen sleep to close it.</string>
-				<string>Settings › LockNC: turn it off to put the lock screen back to stock.</string>
-			</array>
-			<key>id</key>
-			<string>com.mbucc9000.locknc</string>
-			<key>name</key>
-			<string>LockNC</string>
-			<key>public</key>
-			<true/>
-			<key>tagline</key>
-			<string>Notification Center on the lock screen.</string>
-			<key>version</key>
-			<string>1.4.1</string>
 		</dict>
 		<dict>
 			<key>about</key>
@@ -209,70 +56,6 @@
 			<string>Swipe banners up to dismiss them.</string>
 			<key>version</key>
 			<string>1.0.0</string>
-		</dict>
-		<dict>
-			<key>about</key>
-			<string>Per-conversation chat wallpapers in Messages. Press and hold a conversation's background (or its title) to pick a preset or one of your photos.</string>
-			<key>app</key>
-			<false/>
-			<key>howto</key>
-			<array>
-				<string>In a conversation, press and hold the empty background or the title.</string>
-				<string>Pick a preset or Choose Photo. Pick None to go back to stock.</string>
-				<string>The Text Box slider at the top of the picker sets the box's opacity.</string>
-			</array>
-			<key>id</key>
-			<string>com.mbucc9000.messagewallpapers</string>
-			<key>name</key>
-			<string>MessageWallpapers</string>
-			<key>public</key>
-			<true/>
-			<key>tagline</key>
-			<string>A wallpaper for every conversation.</string>
-			<key>version</key>
-			<string>1.6.6</string>
-		</dict>
-		<dict>
-			<key>about</key>
-			<string>Login and 2FA codes texted to your main iPhone's number show up on this iPhone, as a notification from the real sender.</string>
-			<key>app</key>
-			<false/>
-			<key>howto</key>
-			<array>
-				<string>Set up the Shortcuts automation on your main iPhone (Main iPhone setup, below).</string>
-				<string>Codes then arrive on this iPhone as notifications from the real sender, with the code on the clipboard.</string>
-				<string>Settings › SMS Relay turns copying or duplicate hiding off.</string>
-			</array>
-			<key>id</key>
-			<string>com.mbucc9000.smsrelay</string>
-			<key>name</key>
-			<string>SMS Relay</string>
-			<key>public</key>
-			<true/>
-			<key>tagline</key>
-			<string>Your main iPhone's 2FA codes, on this one.</string>
-			<key>version</key>
-			<string>1.0.3</string>
-		</dict>
-		<dict>
-			<key>about</key>
-			<string>Everything AirPods on iOS 6 in one package. AirPodsReconnectFix by mikey820 (commissioned) keeps the AirPods connected and the audio routed to them. AirPodsIcon shows an AirPods icon in the status bar and trims " - Find My" from the AirPods name in Settings and audio pickers. AirPodsUnstick fixes the audio going silent or choppy after the AirPods connect, with no Siri or Bluetooth toggling needed. Recognises your AirPods by identity, so you can name them anything. Replaces the three separate packages.</string>
-			<key>app</key>
-			<false/>
-			<key>howto</key>
-			<array>
-				<string>Pair your AirPods as usual. Nothing to set up: the icon, reconnect fix and audio fix work automatically, whatever you name them.</string>
-			</array>
-			<key>id</key>
-			<string>com.mbucc9000.ultimateairpodsfix</string>
-			<key>name</key>
-			<string>Ultimate AirPods Fix</string>
-			<key>public</key>
-			<true/>
-			<key>tagline</key>
-			<string>AirPods on iOS 6, fixed: connection, icon and clean audio.</string>
-			<key>version</key>
-			<string>1.0.3</string>
 		</dict>
 		<dict>
 			<key>about</key>
@@ -340,48 +123,24 @@
 		</dict>
 		<dict>
 			<key>about</key>
-			<string>Make and receive VoIP.ms (SIP) calls through the stock Phone app. Dial as usual and the call goes over SIP; emergency numbers stay on cellular. Incoming calls ring with your ringtone, wake the screen and show a stock-style call screen. Needs a VoIP.ms account. Settings &gt; SIP Phone.</string>
+			<string>Gives iFile a proper iOS 6 icon on the home screen: rounded corners and gloss instead of a flat square, using the classic artwork if you supply it.</string>
 			<key>app</key>
 			<false/>
 			<key>howto</key>
 			<array>
-				<string>On voip.ms, create a sub-account. For incoming calls, get a number (DID) and route it to that sub-account.</string>
-				<string>Settings › SIP Phone: enter the server (like chicago4.voip.ms), the sub-account and its password, then turn on SIP enabled. Status shows Registered.</string>
-				<string>Dial from the Phone app as usual. Call 4443 for VoIP.ms's echo test.</string>
-				<string>To encrypt your calls: go to voip.ms, log in, go to Sub Accounts, then Manage Sub Accounts, and switch Encrypted SIP Traffic to Yes. Then in Settings › SIP Phone › Security, turn on Encrypted calls. Both must be on together.</string>
-				<string>To show your own number on outgoing calls: at voip.ms, edit your sub-account, and by CallerID Number click the link to verify your real number (it sends a code by call or text). Enter the code, then pick that number as the Caller ID. Calls then show your number, not the VoIP.ms one.</string>
+				<string>Respring after installing and iFile's icon changes.</string>
+				<string>Optional: put your own art at /Library/ClassicIFile/Icon@2x.png.</string>
 			</array>
 			<key>id</key>
-			<string>com.mbucc9000.sipphone</string>
+			<string>com.mbucc9000.classicifile</string>
 			<key>name</key>
-			<string>SIP Phone</string>
+			<string>ClassiciFile</string>
 			<key>public</key>
 			<true/>
 			<key>tagline</key>
-			<string>VoIP.ms calls through the stock Phone app.</string>
+			<string>iFile gets its classic icon back.</string>
 			<key>version</key>
-			<string>1.1.0</string>
-		</dict>
-		<dict>
-			<key>about</key>
-			<string>Sets up an iOS 6 iPhone for a US Mobile Dark Star SIM (AT&amp;T network) automatically: install it and cellular data and MMS are set up, with nothing to type in. Uninstalling puts back what was there before.</string>
-			<key>app</key>
-			<false/>
-			<key>howto</key>
-			<array>
-				<string>Put in your Dark Star SIM and install Dark Star APN.</string>
-				<string>Reboot once. Cellular data and MMS are set up for you.</string>
-			</array>
-			<key>id</key>
-			<string>com.mbucc9000.darkstarapn</string>
-			<key>name</key>
-			<string>Dark Star APN</string>
-			<key>public</key>
-			<true/>
-			<key>tagline</key>
-			<string>Dark Star SIMs, set up automatically.</string>
-			<key>version</key>
-			<string>2.0.2</string>
+			<string>1.1.1</string>
 		</dict>
 		<dict>
 			<key>about</key>
@@ -406,348 +165,45 @@
 		</dict>
 		<dict>
 			<key>about</key>
-			<string>Fast search in Messages, like newer iOS. Every matching message shows (not just one per conversation), with the words in bold, plus matching conversations up top. Tap a result to jump straight to that message. Uses its own on-phone index.</string>
+			<string>Sets up an iOS 6 iPhone for a US Mobile Dark Star SIM (AT&amp;T network) automatically: install it and cellular data and MMS are set up, with nothing to type in. Uninstalling puts back what was there before.</string>
 			<key>app</key>
 			<false/>
 			<key>howto</key>
 			<array>
-				<string>In Messages, pull down on the conversation list to show the search bar, then type.</string>
-				<string>Matching conversations show first, then every matching message. Tap one to jump to it.</string>
-				<string>The first time, older messages are indexed in the background. The list shows how far along it is.</string>
+				<string>Put in your Dark Star SIM and install Dark Star APN.</string>
+				<string>Reboot once. Cellular data and MMS are set up for you.</string>
 			</array>
 			<key>id</key>
-			<string>com.mbucc9000.messagesearch</string>
+			<string>com.mbucc9000.darkstarapn</string>
 			<key>name</key>
-			<string>MessageSearch</string>
+			<string>Dark Star APN</string>
 			<key>public</key>
 			<true/>
 			<key>tagline</key>
-			<string>Search your messages like newer iOS.</string>
+			<string>Dark Star SIMs, set up automatically.</string>
 			<key>version</key>
-			<string>1.0.0</string>
+			<string>2.0.2</string>
 		</dict>
 		<dict>
 			<key>about</key>
-			<string>Tapback badges, edited messages and native iMessage reaction sending for iOS 6 Messages.</string>
+			<string>An unofficial Spotify client for iOS 6, which also runs on iOS 5. Music streams from your own Encore Bridge, which you run on a computer at home (Windows or Docker). Needs Spotify Premium. Not made by, affiliated with or endorsed by Spotify.</string>
 			<key>app</key>
-			<false/>
+			<true/>
 			<key>howto</key>
 			<array>
-				<string>Incoming reactions show as badges automatically. Show Edits updates matching original bubbles.</string>
-				<string>Enable React &amp; Reply in Settings &gt; Reactions, then double-tap a bubble and choose a reaction. Native sending requires iMessage.</string>
-				<string>Hold a bubble for Copy. Optional swipe replies still arrive as ordinary text, without an inline quote.</string>
+				<string>Run Encore Bridge at home (Windows installer or Docker) and follow its setup guide.</string>
+				<string>Install Encore from slopkit, open it and pair it with the bridge.</string>
 			</array>
 			<key>id</key>
-			<string>com.mbucc9000.reactions</string>
+			<string>com.mbucc9000.encore</string>
 			<key>name</key>
-			<string>Reactions</string>
+			<string>Encore</string>
 			<key>public</key>
 			<true/>
 			<key>tagline</key>
-			<string>Send native iMessage reactions from iOS 6.</string>
+			<string>Spotify, back on iOS 6.</string>
 			<key>version</key>
-			<string>2.3.0</string>
-		</dict>
-		<dict>
-			<key>about</key>
-			<string>Tracks how long you spend in each app (screen on and unlocked only). See Settings &gt; App Time for Today, Last 7 Days and All Time.</string>
-			<key>app</key>
-			<false/>
-			<key>howto</key>
-			<array>
-				<string>Use your iPhone as usual.</string>
-				<string>Settings › App Time shows Today, Last 7 Days and All Time. Reset is there too.</string>
-			</array>
-			<key>id</key>
-			<string>com.mbucc9000.apptime</string>
-			<key>name</key>
-			<string>AppTime</string>
-			<key>public</key>
-			<true/>
-			<key>tagline</key>
-			<string>See where your screen time goes.</string>
-			<key>version</key>
-			<string>1.0.0</string>
-		</dict>
-		<dict>
-			<key>about</key>
-			<string>Swipe left in a Messages conversation to see when each message was sent, like iOS 7.</string>
-			<key>app</key>
-			<false/>
-			<key>howto</key>
-			<array>
-				<string>In a conversation, drag left to reveal each message's time. Let go to hide them.</string>
-			</array>
-			<key>id</key>
-			<string>com.mbucc9000.messagetimes</string>
-			<key>name</key>
-			<string>MessageTimes</string>
-			<key>public</key>
-			<true/>
-			<key>tagline</key>
-			<string>Swipe left to see when messages were sent.</string>
-			<key>version</key>
-			<string>1.0.0</string>
-		</dict>
-		<dict>
-			<key>about</key>
-			<string>Schedule a text in Messages. Type your message, touch and hold Send, and pick a time. Your iPhone sends it then, even if Messages is closed or the phone is asleep. Touch and hold Send again to see, change, send now or cancel what's scheduled in that conversation.</string>
-			<key>app</key>
-			<false/>
-			<key>howto</key>
-			<array>
-				<string>In a conversation, type your message, then touch and hold Send.</string>
-				<string>Tap Send Later…, pick a time and tap Schedule.</string>
-				<string>To see, change or cancel it, touch and hold Send again and tap Scheduled Messages.</string>
-			</array>
-			<key>id</key>
-			<string>com.mbucc9000.sendlater</string>
-			<key>name</key>
-			<string>Send Later</string>
-			<key>public</key>
-			<true/>
-			<key>tagline</key>
-			<string>Schedule a text to send later.</string>
-			<key>version</key>
-			<string>1.0.0</string>
-		</dict>
-		<dict>
-			<key>about</key>
-			<string>iOS 10-style link previews in Messages. A message that's just a link shows as a card with the page's picture, title and site; a link inside other text gets the card above its bubble. Tap a card to open the link, or touch and hold to copy it. Everything loads on this iPhone, straight from each website. For modern HTTPS sites, install TLSFix and its certificates. Settings &gt; Link Previews.</string>
-			<key>app</key>
-			<false/>
-			<key>howto</key>
-			<array>
-				<string>For modern HTTPS sites, install TLSFix from Cydia, then open tlsroot.litten.ca in Safari and install its certificates.</string>
-				<string>Send or receive a link in Messages: a link on its own becomes a preview card, and a link inside other text gets the card above its bubble.</string>
-				<string>Tap the card to open the link, or touch and hold it to copy the link.</string>
-				<string>Choose what loads in Settings › Link Previews.</string>
-			</array>
-			<key>id</key>
-			<string>com.mbucc9000.linkpreviews</string>
-			<key>name</key>
-			<string>Link Previews</string>
-			<key>public</key>
-			<true/>
-			<key>tagline</key>
-			<string>iOS 10-style link previews in Messages.</string>
-			<key>version</key>
-			<string>1.1.0</string>
-		</dict>
-		<dict>
-			<key>about</key>
-			<string>Shows HEIC photos in Messages. Newer iPhones send camera photos as HEIC, which iOS 6 can't open, so they arrive as broken file bubbles. HEICFix makes a JPEG copy of each one on this iPhone, and Messages shows it like any other photo: in the chat, full screen, and when you save it. The original file is never changed.</string>
-			<key>app</key>
-			<false/>
-			<key>howto</key>
-			<array>
-				<string>Install HEICFix, then open Messages.</string>
-				<string>HEIC photos you already have turn into normal photos a few seconds later, and new ones convert as they arrive.</string>
-				<string>There's nothing to set up.</string>
-			</array>
-			<key>id</key>
-			<string>com.mbucc9000.heicfix</string>
-			<key>name</key>
-			<string>HEICFix</string>
-			<key>public</key>
-			<true/>
-			<key>tagline</key>
-			<string>HEIC photos show up in Messages.</string>
-			<key>version</key>
-			<string>1.0.0</string>
-		</dict>
-		<dict>
-			<key>about</key>
-			<string>GIPHY GIFs in Messages. Touch and hold the camera button in a conversation, browse or search GIFs, and tap one to add it to your message. Needs a free GIPHY API key and TLSFix. Settings &gt; Message GIFs.</string>
-			<key>app</key>
-			<false/>
-			<key>howto</key>
-			<array>
-				<string>Install TLSFix from Cydia, then open tlsroot.litten.ca in Safari and install its certificates.</string>
-				<string>Make a free API key at developers.giphy.com (Create an App, choose API) and copy it.</string>
-				<string>In Messages, touch and hold the camera button and tap Paste Key, or enter the key in Settings › Message GIFs.</string>
-				<string>Touch and hold the camera button, find a GIF, and tap it to add it to your message.</string>
-			</array>
-			<key>id</key>
-			<string>com.mbucc9000.messagegifs</string>
-			<key>name</key>
-			<string>Message GIFs</string>
-			<key>public</key>
-			<true/>
-			<key>tagline</key>
-			<string>GIPHY GIFs in Messages.</string>
-			<key>version</key>
-			<string>1.0.0</string>
-		</dict>
-		<dict>
-			<key>about</key>
-			<string>Gmail-style inbox tabs for iOS 6 Mail. Mail is sorted into Primary, Social, Promotions, Updates and Forums, each a mailbox under All Inboxes with an unread count, plus a colored tab bar to switch between them. On Gmail accounts Gmail itself does the sorting, so it matches the Gmail app. A thread opens as one Gmail-style conversation with your own replies in it, you can copy text from any email, and the title switches between accounts. Settings &gt; NewMail.</string>
-			<key>app</key>
-			<false/>
-			<key>howto</key>
-			<array>
-				<string>Install NewMail and open Mail. Primary, Social, Promotions, Updates and Forums appear under All Inboxes.</string>
-				<string>Open a tab. Use the colored bar at the top to switch tabs, or tap the title to pick an account.</string>
-				<string>Tap a thread to read the whole conversation, with your replies in it. Pull down to refresh.</string>
-				<string>Hide tabs, or turn off Gmail's sorting, Conversation View, the tab bar or sender pictures, in Settings › NewMail.</string>
-			</array>
-			<key>id</key>
-			<string>com.mbucc9000.newmail</string>
-			<key>name</key>
-			<string>NewMail</string>
-			<key>public</key>
-			<true/>
-			<key>tagline</key>
-			<string>Gmail-style tabs for Mail.</string>
-			<key>version</key>
-			<string>1.0.0</string>
-		</dict>
-		<dict>
-			<key>about</key>
-			<string>Saves front-camera photos and videos mirrored, exactly as the preview shows them. Works in Camera and in the lock screen camera.</string>
-			<key>app</key>
-			<false/>
-			<key>howto</key>
-			<array>
-				<string>Nothing to set up: take a front-camera photo or video and it saves the way the preview looked.</string>
-			</array>
-			<key>id</key>
-			<string>com.mbucc9000.mirrorfront</string>
-			<key>name</key>
-			<string>MirrorFront</string>
-			<key>public</key>
-			<true/>
-			<key>tagline</key>
-			<string>Front-camera shots, saved the way you saw them.</string>
-			<key>version</key>
-			<string>1.1.0</string>
-		</dict>
-		<dict>
-			<key>about</key>
-			<string>For Instagram 6.5.1 running on an Xstragram server.</string>
-			<key>app</key>
-			<false/>
-			<key>howto</key>
-			<array>
-				<string>Open Instagram 6.5.1 signed in to your Xstragram server.</string>
-				<string>Albums show a 1/4 badge: swipe sideways. Pinch any feed photo to zoom.</string>
-			</array>
-			<key>id</key>
-			<string>com.mbucc9000.xgalbums</string>
-			<key>name</key>
-			<string>XGAlbums</string>
-			<key>public</key>
-			<true/>
-			<key>tagline</key>
-			<string>Albums, music and zoom for Instagram 6.</string>
-			<key>version</key>
-			<string>1.4.0</string>
-		</dict>
-		<dict>
-			<key>about</key>
-			<string>Removes the local password/passcode re-authentication prompt from Find My Friends.</string>
-			<key>app</key>
-			<false/>
-			<key>howto</key>
-			<array>
-				<string>Open Find My Friends: no password prompt.</string>
-			</array>
-			<key>id</key>
-			<string>com.mbucc9000.nofmfreauth</string>
-			<key>name</key>
-			<string>NoFMFReauth</string>
-			<key>public</key>
-			<true/>
-			<key>tagline</key>
-			<string>Find My Friends stops asking for your password.</string>
-			<key>version</key>
-			<string>1.0.1</string>
-		</dict>
-		<dict>
-			<key>about</key>
-			<string>Find My Friends on iOS 6: satellite view with a Standard / Satellite / Hybrid button on the map, and little name tags above everyone so you can see who is who without tapping.</string>
-			<key>app</key>
-			<false/>
-			<key>howto</key>
-			<array>
-				<string>Open Find My Friends. The map starts in Satellite.</string>
-				<string>On a full-screen map (tap the small map on the All list, or open a friend), tap the button in the bottom-left corner to switch between Standard, Satellite and Hybrid.</string>
-				<string>Names show above everyone's dots. Tap a dot for the full details, as before.</string>
-			</array>
-			<key>id</key>
-			<string>com.mbucc9000.fmfmapplus</string>
-			<key>name</key>
-			<string>FMF Map Plus</string>
-			<key>public</key>
-			<true/>
-			<key>tagline</key>
-			<string>Satellite view and name tags in Find My Friends.</string>
-			<key>version</key>
-			<string>1.0.0</string>
-		</dict>
-		<dict>
-			<key>about</key>
-			<string>Gives iFile a proper iOS 6 icon on the home screen: rounded corners and gloss instead of a flat square, using the classic artwork if you supply it.</string>
-			<key>app</key>
-			<false/>
-			<key>howto</key>
-			<array>
-				<string>Respring after installing and iFile's icon changes.</string>
-				<string>Optional: put your own art at /Library/ClassicIFile/Icon@2x.png.</string>
-			</array>
-			<key>id</key>
-			<string>com.mbucc9000.classicifile</string>
-			<key>name</key>
-			<string>ClassiciFile</string>
-			<key>public</key>
-			<true/>
-			<key>tagline</key>
-			<string>iFile gets its classic icon back.</string>
-			<key>version</key>
-			<string>1.1.1</string>
-		</dict>
-		<dict>
-			<key>about</key>
-			<string>Cydia stays in the background when you press the home button instead of quitting, so it opens right where you left it with no "Reloading Data" wait. Uses Cydia's own iOS 8 background mode: it still reloads if packages change while it's away. iOS closes it like any other app if memory runs low. Installs Vnode Limit too, so Cydia refreshes don't run iOS 6 out of open files.</string>
-			<key>app</key>
-			<false/>
-			<key>howto</key>
-			<array>
-				<string>Open Cydia and let it load.</string>
-				<string>Press Home. Cydia stays in the app switcher instead of quitting.</string>
-				<string>Open Cydia again and it's right where you left it.</string>
-			</array>
-			<key>id</key>
-			<string>com.mbucc9000.keepcydia</string>
-			<key>name</key>
-			<string>KeepCydia</string>
-			<key>public</key>
-			<true/>
-			<key>tagline</key>
-			<string>Cydia stays open in the background, like on iOS 8.</string>
-			<key>version</key>
-			<string>1.0.3</string>
-		</dict>
-		<dict>
-			<key>about</key>
-			<string>Raises iOS 6's open-file (vnode) limit from 1250 to 3000 at every boot. With many tweaks, a Cydia refresh fills the stock table and iOS kills apps, Cydia included, to make room. Costs about 1 MB of kernel memory. Remove it and reboot to go back to 1250.</string>
-			<key>app</key>
-			<false/>
-			<key>howto</key>
-			<array>
-				<string>Install it. The new limit applies right away and at every boot.</string>
-				<string>There's nothing to open or set. To undo it, remove Vnode Limit and reboot.</string>
-			</array>
-			<key>id</key>
-			<string>com.mbucc9000.vnodelimit</string>
-			<key>name</key>
-			<string>Vnode Limit</string>
-			<key>public</key>
-			<true/>
-			<key>tagline</key>
-			<string>Stops iOS 6 closing your apps when it runs out of open files.</string>
-			<key>version</key>
-			<string>1.0.0</string>
+			<string>1.7.0</string>
 		</dict>
 		<dict>
 			<key>about</key>
@@ -818,6 +274,551 @@
 			<string>Flappy Hats, drawn at a smooth 60fps.</string>
 			<key>version</key>
 			<string>1.0.1</string>
+		</dict>
+		<dict>
+			<key>about</key>
+			<string>Find My Friends on iOS 6: satellite view with a Standard / Satellite / Hybrid button on the map, and little name tags above everyone so you can see who is who without tapping.</string>
+			<key>app</key>
+			<false/>
+			<key>howto</key>
+			<array>
+				<string>Open Find My Friends. The map starts in Satellite.</string>
+				<string>On a full-screen map (tap the small map on the All list, or open a friend), tap the button in the bottom-left corner to switch between Standard, Satellite and Hybrid.</string>
+				<string>Names show above everyone's dots. Tap a dot for the full details, as before.</string>
+			</array>
+			<key>id</key>
+			<string>com.mbucc9000.fmfmapplus</string>
+			<key>name</key>
+			<string>FMF Map Plus</string>
+			<key>public</key>
+			<true/>
+			<key>tagline</key>
+			<string>Satellite view and name tags in Find My Friends.</string>
+			<key>version</key>
+			<string>1.0.0</string>
+		</dict>
+		<dict>
+			<key>about</key>
+			<string>Shows HEIC photos in Messages. Newer iPhones send camera photos as HEIC, which iOS 6 can't open, so they arrive as broken file bubbles. HEICFix makes a JPEG copy of each one on this iPhone, and Messages shows it like any other photo: in the chat, full screen, and when you save it. The original file is never changed.</string>
+			<key>app</key>
+			<false/>
+			<key>howto</key>
+			<array>
+				<string>Install HEICFix, then open Messages.</string>
+				<string>HEIC photos you already have turn into normal photos a few seconds later, and new ones convert as they arrive.</string>
+				<string>There's nothing to set up.</string>
+			</array>
+			<key>id</key>
+			<string>com.mbucc9000.heicfix</string>
+			<key>name</key>
+			<string>HEICFix</string>
+			<key>public</key>
+			<true/>
+			<key>tagline</key>
+			<string>HEIC photos show up in Messages.</string>
+			<key>version</key>
+			<string>1.0.0</string>
+		</dict>
+		<dict>
+			<key>about</key>
+			<string>Cydia stays in the background when you press the home button instead of quitting, so it opens right where you left it with no "Reloading Data" wait. Uses Cydia's own iOS 8 background mode: it still reloads if packages change while it's away. iOS closes it like any other app if memory runs low. Installs Vnode Limit too, so Cydia refreshes don't run iOS 6 out of open files.</string>
+			<key>app</key>
+			<false/>
+			<key>howto</key>
+			<array>
+				<string>Open Cydia and let it load.</string>
+				<string>Press Home. Cydia stays in the app switcher instead of quitting.</string>
+				<string>Open Cydia again and it's right where you left it.</string>
+			</array>
+			<key>id</key>
+			<string>com.mbucc9000.keepcydia</string>
+			<key>name</key>
+			<string>KeepCydia</string>
+			<key>public</key>
+			<true/>
+			<key>tagline</key>
+			<string>Cydia stays open in the background, like on iOS 8.</string>
+			<key>version</key>
+			<string>1.0.3</string>
+		</dict>
+		<dict>
+			<key>about</key>
+			<string>Key-tap haptics and a space-bar trackpad for the stock keyboard.</string>
+			<key>app</key>
+			<false/>
+			<key>howto</key>
+			<array>
+				<string>Type as usual: every key press gives a light tap.</string>
+				<string>Hold the space bar, then slide to move the cursor.</string>
+				<string>Tune it in Settings › KeyTick.</string>
+			</array>
+			<key>id</key>
+			<string>com.mbucc9000.keytick</string>
+			<key>name</key>
+			<string>KeyTick</string>
+			<key>public</key>
+			<true/>
+			<key>tagline</key>
+			<string>Keyboard haptics and a space-bar trackpad.</string>
+			<key>version</key>
+			<string>4.0.0</string>
+		</dict>
+		<dict>
+			<key>about</key>
+			<string>iOS 10-style link previews in Messages. A message that's just a link shows as a card with the page's picture, title and site; a link inside other text gets the card above its bubble. Tap a card to open the link, or touch and hold to copy it. Everything loads on this iPhone, straight from each website. For modern HTTPS sites, install TLSFix and its certificates. Settings &gt; Link Previews.</string>
+			<key>app</key>
+			<false/>
+			<key>howto</key>
+			<array>
+				<string>For modern HTTPS sites, install TLSFix from Cydia, then open tlsroot.litten.ca in Safari and install its certificates.</string>
+				<string>Send or receive a link in Messages: a link on its own becomes a preview card, and a link inside other text gets the card above its bubble.</string>
+				<string>Tap the card to open the link, or touch and hold it to copy the link.</string>
+				<string>Choose what loads in Settings › Link Previews.</string>
+			</array>
+			<key>id</key>
+			<string>com.mbucc9000.linkpreviews</string>
+			<key>name</key>
+			<string>Link Previews</string>
+			<key>public</key>
+			<true/>
+			<key>tagline</key>
+			<string>iOS 10-style link previews in Messages.</string>
+			<key>version</key>
+			<string>1.1.0</string>
+		</dict>
+		<dict>
+			<key>about</key>
+			<string>Use Notification Center on the lock screen. Swipe down from the top edge to open it; swipe up from the bottom, press Home, or let the screen sleep to close it. Tapping a notification while locked just closes it, so nothing opens until you unlock. Settings &gt; LockNC.</string>
+			<key>app</key>
+			<false/>
+			<key>howto</key>
+			<array>
+				<string>On the lock screen, swipe down from the very top edge to open Notification Center.</string>
+				<string>Swipe up from the bottom, press Home, or let the screen sleep to close it.</string>
+				<string>Settings › LockNC: turn it off to put the lock screen back to stock.</string>
+			</array>
+			<key>id</key>
+			<string>com.mbucc9000.locknc</string>
+			<key>name</key>
+			<string>LockNC</string>
+			<key>public</key>
+			<true/>
+			<key>tagline</key>
+			<string>Notification Center on the lock screen.</string>
+			<key>version</key>
+			<string>1.4.1</string>
+		</dict>
+		<dict>
+			<key>about</key>
+			<string>GIPHY GIFs in Messages. Touch and hold the camera button in a conversation, browse or search GIFs, and tap one to add it to your message. Needs a free GIPHY API key and TLSFix. Settings &gt; Message GIFs.</string>
+			<key>app</key>
+			<false/>
+			<key>howto</key>
+			<array>
+				<string>Install TLSFix from Cydia, then open tlsroot.litten.ca in Safari and install its certificates.</string>
+				<string>Make a free API key at developers.giphy.com (Create an App, choose API) and copy it.</string>
+				<string>In Messages, touch and hold the camera button and tap Paste Key, or enter the key in Settings › Message GIFs.</string>
+				<string>Touch and hold the camera button, find a GIF, and tap it to add it to your message.</string>
+			</array>
+			<key>id</key>
+			<string>com.mbucc9000.messagegifs</string>
+			<key>name</key>
+			<string>Message GIFs</string>
+			<key>public</key>
+			<true/>
+			<key>tagline</key>
+			<string>GIPHY GIFs in Messages.</string>
+			<key>version</key>
+			<string>1.0.0</string>
+		</dict>
+		<dict>
+			<key>about</key>
+			<string>Fast search in Messages, like newer iOS. Every matching message shows (not just one per conversation), with the words in bold, plus matching conversations up top. Tap a result to jump straight to that message. Uses its own on-phone index.</string>
+			<key>app</key>
+			<false/>
+			<key>howto</key>
+			<array>
+				<string>In Messages, pull down on the conversation list to show the search bar, then type.</string>
+				<string>Matching conversations show first, then every matching message. Tap one to jump to it.</string>
+				<string>The first time, older messages are indexed in the background. The list shows how far along it is.</string>
+			</array>
+			<key>id</key>
+			<string>com.mbucc9000.messagesearch</string>
+			<key>name</key>
+			<string>MessageSearch</string>
+			<key>public</key>
+			<true/>
+			<key>tagline</key>
+			<string>Search your messages like newer iOS.</string>
+			<key>version</key>
+			<string>1.0.0</string>
+		</dict>
+		<dict>
+			<key>about</key>
+			<string>Swipe left in a Messages conversation to see when each message was sent, like iOS 7.</string>
+			<key>app</key>
+			<false/>
+			<key>howto</key>
+			<array>
+				<string>In a conversation, drag left to reveal each message's time. Let go to hide them.</string>
+			</array>
+			<key>id</key>
+			<string>com.mbucc9000.messagetimes</string>
+			<key>name</key>
+			<string>MessageTimes</string>
+			<key>public</key>
+			<true/>
+			<key>tagline</key>
+			<string>Swipe left to see when messages were sent.</string>
+			<key>version</key>
+			<string>1.0.0</string>
+		</dict>
+		<dict>
+			<key>about</key>
+			<string>Per-conversation chat wallpapers in Messages. Press and hold a conversation's background (or its title) to pick a preset or one of your photos.</string>
+			<key>app</key>
+			<false/>
+			<key>howto</key>
+			<array>
+				<string>In a conversation, press and hold the empty background or the title.</string>
+				<string>Pick a preset or Choose Photo. Pick None to go back to stock.</string>
+				<string>The Text Box slider at the top of the picker sets the box's opacity.</string>
+			</array>
+			<key>id</key>
+			<string>com.mbucc9000.messagewallpapers</string>
+			<key>name</key>
+			<string>MessageWallpapers</string>
+			<key>public</key>
+			<true/>
+			<key>tagline</key>
+			<string>A wallpaper for every conversation.</string>
+			<key>version</key>
+			<string>1.6.6</string>
+		</dict>
+		<dict>
+			<key>about</key>
+			<string>Saves front-camera photos and videos mirrored, exactly as the preview shows them. Works in Camera and in the lock screen camera.</string>
+			<key>app</key>
+			<false/>
+			<key>howto</key>
+			<array>
+				<string>Nothing to set up: take a front-camera photo or video and it saves the way the preview looked.</string>
+			</array>
+			<key>id</key>
+			<string>com.mbucc9000.mirrorfront</string>
+			<key>name</key>
+			<string>MirrorFront</string>
+			<key>public</key>
+			<true/>
+			<key>tagline</key>
+			<string>Front-camera shots, saved the way you saw them.</string>
+			<key>version</key>
+			<string>1.1.0</string>
+		</dict>
+		<dict>
+			<key>about</key>
+			<string>Gmail-style inbox tabs for iOS 6 Mail. Mail is sorted into Primary, Social, Promotions, Updates and Forums, each a mailbox under All Inboxes with an unread count, plus a colored tab bar to switch between them. On Gmail accounts Gmail itself does the sorting, so it matches the Gmail app. A thread opens as one Gmail-style conversation with your own replies in it, you can copy text from any email, and the title switches between accounts. Settings &gt; NewMail.</string>
+			<key>app</key>
+			<false/>
+			<key>howto</key>
+			<array>
+				<string>Install NewMail and open Mail. Primary, Social, Promotions, Updates and Forums appear under All Inboxes.</string>
+				<string>Open a tab. Use the colored bar at the top to switch tabs, or tap the title to pick an account.</string>
+				<string>Tap a thread to read the whole conversation, with your replies in it. Pull down to refresh.</string>
+				<string>Hide tabs, or turn off Gmail's sorting, Conversation View, the tab bar or sender pictures, in Settings › NewMail.</string>
+			</array>
+			<key>id</key>
+			<string>com.mbucc9000.newmail</string>
+			<key>name</key>
+			<string>NewMail</string>
+			<key>public</key>
+			<true/>
+			<key>tagline</key>
+			<string>Gmail-style tabs for Mail.</string>
+			<key>version</key>
+			<string>1.0.0</string>
+		</dict>
+		<dict>
+			<key>about</key>
+			<string>Removes the local password/passcode re-authentication prompt from Find My Friends.</string>
+			<key>app</key>
+			<false/>
+			<key>howto</key>
+			<array>
+				<string>Open Find My Friends: no password prompt.</string>
+			</array>
+			<key>id</key>
+			<string>com.mbucc9000.nofmfreauth</string>
+			<key>name</key>
+			<string>NoFMFReauth</string>
+			<key>public</key>
+			<true/>
+			<key>tagline</key>
+			<string>Find My Friends stops asking for your password.</string>
+			<key>version</key>
+			<string>1.0.1</string>
+		</dict>
+		<dict>
+			<key>about</key>
+			<string>Point the camera at a QR code and it's read right away. Open the link, call the number, or copy the text or Wi-Fi password.</string>
+			<key>app</key>
+			<true/>
+			<key>howto</key>
+			<array>
+				<string>Open QR Scanner and point the camera at a QR code.</string>
+				<string>When it's read, tap the card's action (Open in Safari, Call, Send Email and so on) or Copy. Done goes back to scanning.</string>
+				<string>To read a code in a picture, tap Photos and pick it. In the dark, tap Light.</string>
+			</array>
+			<key>id</key>
+			<string>com.mbucc9000.qrscanner</string>
+			<key>name</key>
+			<string>QR Scanner</string>
+			<key>public</key>
+			<true/>
+			<key>tagline</key>
+			<string>A simple QR code scanner.</string>
+			<key>version</key>
+			<string>1.0.0</string>
+		</dict>
+		<dict>
+			<key>about</key>
+			<string>Tapback badges, edited messages and native iMessage reaction sending for iOS 6 Messages.</string>
+			<key>app</key>
+			<false/>
+			<key>howto</key>
+			<array>
+				<string>Incoming reactions show as badges. Show Edits updates matching original bubbles.</string>
+				<string>Double-tap a bubble to choose a native iMessage reaction.</string>
+				<string>Swipe a bubble right, type a text reply and send. Native replies require iMessage; attachment replies are not supported yet.</string>
+				<string>Hold a bubble for Copy. Change individual options in Settings &gt; Reactions.</string>
+			</array>
+			<key>id</key>
+			<string>com.mbucc9000.reactions</string>
+			<key>name</key>
+			<string>Reactions</string>
+			<key>public</key>
+			<true/>
+			<key>tagline</key>
+			<string>Native iMessage reactions and replies on iOS 6.</string>
+			<key>version</key>
+			<string>2.3.1</string>
+		</dict>
+		<dict>
+			<key>about</key>
+			<string>Schedule a text in Messages. Type your message, touch and hold Send, and pick a time. Your iPhone sends it then, even if Messages is closed or the phone is asleep. Touch and hold Send again to see, change, send now or cancel what's scheduled in that conversation.</string>
+			<key>app</key>
+			<false/>
+			<key>howto</key>
+			<array>
+				<string>In a conversation, type your message, then touch and hold Send.</string>
+				<string>Tap Send Later…, pick a time and tap Schedule.</string>
+				<string>To see, change or cancel it, touch and hold Send again and tap Scheduled Messages.</string>
+			</array>
+			<key>id</key>
+			<string>com.mbucc9000.sendlater</string>
+			<key>name</key>
+			<string>Send Later</string>
+			<key>public</key>
+			<true/>
+			<key>tagline</key>
+			<string>Schedule a text to send later.</string>
+			<key>version</key>
+			<string>1.0.0</string>
+		</dict>
+		<dict>
+			<key>about</key>
+			<string>Make and receive VoIP.ms (SIP) calls through the stock Phone app. Dial as usual and the call goes over SIP; emergency numbers stay on cellular. Incoming calls ring with your ringtone, wake the screen and show a stock-style call screen. Needs a VoIP.ms account. Settings &gt; SIP Phone.</string>
+			<key>app</key>
+			<false/>
+			<key>howto</key>
+			<array>
+				<string>On voip.ms, create a sub-account. For incoming calls, get a number (DID) and route it to that sub-account.</string>
+				<string>Settings › SIP Phone: enter the server (like chicago4.voip.ms), the sub-account and its password, then turn on SIP enabled. Status shows Registered.</string>
+				<string>Dial from the Phone app as usual. Call 4443 for VoIP.ms's echo test.</string>
+				<string>To encrypt your calls: go to voip.ms, log in, go to Sub Accounts, then Manage Sub Accounts, and switch Encrypted SIP Traffic to Yes. Then in Settings › SIP Phone › Security, turn on Encrypted calls. Both must be on together.</string>
+				<string>To show your own number on outgoing calls: at voip.ms, edit your sub-account, and by CallerID Number click the link to verify your real number (it sends a code by call or text). Enter the code, then pick that number as the Caller ID. Calls then show your number, not the VoIP.ms one.</string>
+			</array>
+			<key>id</key>
+			<string>com.mbucc9000.sipphone</string>
+			<key>name</key>
+			<string>SIP Phone</string>
+			<key>public</key>
+			<true/>
+			<key>tagline</key>
+			<string>VoIP.ms calls through the stock Phone app.</string>
+			<key>version</key>
+			<string>1.1.0</string>
+		</dict>
+		<dict>
+			<key>about</key>
+			<string>Login and 2FA codes texted to your main iPhone's number show up on this iPhone, as a notification from the real sender.</string>
+			<key>app</key>
+			<false/>
+			<key>howto</key>
+			<array>
+				<string>Set up the Shortcuts automation on your main iPhone (Main iPhone setup, below).</string>
+				<string>Codes then arrive on this iPhone as notifications from the real sender, with the code on the clipboard.</string>
+				<string>Settings › SMS Relay turns copying or duplicate hiding off.</string>
+			</array>
+			<key>id</key>
+			<string>com.mbucc9000.smsrelay</string>
+			<key>name</key>
+			<string>SMS Relay</string>
+			<key>public</key>
+			<true/>
+			<key>tagline</key>
+			<string>Your main iPhone's 2FA codes, on this one.</string>
+			<key>version</key>
+			<string>1.0.3</string>
+		</dict>
+		<dict>
+			<key>about</key>
+			<string>Swipe typing for the stock keyboard. Slide across a word's letters and lift.</string>
+			<key>app</key>
+			<false/>
+			<key>howto</key>
+			<array>
+				<string>Slide across a word's letters and lift to type it.</string>
+				<string>Hold at the end of a swipe, then slide sideways to pick another word.</string>
+				<string>Tap delete right after a swipe to remove the whole word.</string>
+				<string>Tune it in Settings › SwipeType.</string>
+			</array>
+			<key>id</key>
+			<string>com.mbucc9000.swipetype</string>
+			<key>name</key>
+			<string>SwipeType</string>
+			<key>public</key>
+			<true/>
+			<key>tagline</key>
+			<string>Swipe typing for the stock keyboard.</string>
+			<key>version</key>
+			<string>2.0.0</string>
+		</dict>
+		<dict>
+			<key>about</key>
+			<string>Taptic Engine style alert vibrations. Swaps the iPhone's long "DUUU DUUU" buzzes for short, sharp taps (single, double or triple) for texts, notifications and apps, reminders, the ring/silent switch, charging and calls, including vibrations picked in Settings &gt; Sounds. Strength, tap length and gap are adjustable. Takes effect after a reboot (or killall mediaserverd). Settings &gt; Taptic Alerts.</string>
+			<key>app</key>
+			<false/>
+			<key>howto</key>
+			<array>
+				<string>Reboot once after installing.</string>
+				<string>Settings › Taptic Alerts: pick a tap pattern for each alert type.</string>
+				<string>Adjust Strength, Tap Length and Gap. A preview plays as you slide.</string>
+			</array>
+			<key>id</key>
+			<string>com.mbucc9000.tapticalerts</string>
+			<key>name</key>
+			<string>Taptic Alerts</string>
+			<key>public</key>
+			<true/>
+			<key>tagline</key>
+			<string>Short, sharp taps instead of long buzzes.</string>
+			<key>version</key>
+			<string>1.1.0</string>
+		</dict>
+		<dict>
+			<key>about</key>
+			<string>A light iOS 12 style tick when the iPhone unlocks (slide to unlock, a correct passcode, or sliding a notification open) and when it locks (the sleep button or Auto-Lock); each can be turned off. Same feedback as KeyTick's key taps, and by default the same Strength and Length. Formerly UnlockTick. Settings &gt; TickLock.</string>
+			<key>app</key>
+			<false/>
+			<key>howto</key>
+			<array>
+				<string>Unlock as usual: you feel one light tick.</string>
+				<string>Settings › TickLock: tick on lock too, match KeyTick, or set your own strength and length.</string>
+			</array>
+			<key>id</key>
+			<string>com.mbucc9000.unlocktick</string>
+			<key>name</key>
+			<string>TickLock</string>
+			<key>public</key>
+			<true/>
+			<key>tagline</key>
+			<string>A light tick when you unlock (and lock).</string>
+			<key>version</key>
+			<string>1.2.0-1</string>
+		</dict>
+		<dict>
+			<key>about</key>
+			<string>Everything AirPods on iOS 6 in one package. AirPodsReconnectFix by mikey820 (commissioned) keeps the AirPods connected and the audio routed to them. AirPodsIcon shows an AirPods icon in the status bar and trims " - Find My" from the AirPods name in Settings and audio pickers. AirPodsUnstick fixes the audio going silent or choppy after the AirPods connect, with no Siri or Bluetooth toggling needed. Recognises your AirPods by identity, so you can name them anything. Replaces the three separate packages.</string>
+			<key>app</key>
+			<false/>
+			<key>howto</key>
+			<array>
+				<string>Pair your AirPods as usual. Nothing to set up: the icon, reconnect fix and audio fix work automatically, whatever you name them.</string>
+			</array>
+			<key>id</key>
+			<string>com.mbucc9000.ultimateairpodsfix</string>
+			<key>name</key>
+			<string>Ultimate AirPods Fix</string>
+			<key>public</key>
+			<true/>
+			<key>tagline</key>
+			<string>AirPods on iOS 6, fixed: connection, icon and clean audio.</string>
+			<key>version</key>
+			<string>1.0.3</string>
+		</dict>
+		<dict>
+			<key>about</key>
+			<string>An unofficial Venmo client for iOS 6. It talks to Venmo straight from your phone; there's no server to run. Needs TLSFix (and its certificates) for modern HTTPS, and a computer once to copy your device ID. Venmo's terms don't allow unofficial apps and Venmo can limit accounts over it. Not made by, affiliated with or endorsed by Venmo or PayPal.</string>
+			<key>app</key>
+			<true/>
+			<key>howto</key>
+			<array>
+				<string>Install TLSFix first.</string>
+				<string>Open Venn and follow the built-in setup guide: device ID, sign in, then set a PIN.</string>
+			</array>
+			<key>id</key>
+			<string>com.mbucc9000.venn</string>
+			<key>name</key>
+			<string>Venn</string>
+			<key>public</key>
+			<true/>
+			<key>tagline</key>
+			<string>Venmo, back on iOS 6.</string>
+			<key>version</key>
+			<string>1.0.4</string>
+		</dict>
+		<dict>
+			<key>about</key>
+			<string>Raises iOS 6's open-file (vnode) limit from 1250 to 3000 at every boot. With many tweaks, a Cydia refresh fills the stock table and iOS kills apps, Cydia included, to make room. Costs about 1 MB of kernel memory. Remove it and reboot to go back to 1250.</string>
+			<key>app</key>
+			<false/>
+			<key>howto</key>
+			<array>
+				<string>Install it. The new limit applies right away and at every boot.</string>
+				<string>There's nothing to open or set. To undo it, remove Vnode Limit and reboot.</string>
+			</array>
+			<key>id</key>
+			<string>com.mbucc9000.vnodelimit</string>
+			<key>name</key>
+			<string>Vnode Limit</string>
+			<key>public</key>
+			<true/>
+			<key>tagline</key>
+			<string>Stops iOS 6 closing your apps when it runs out of open files.</string>
+			<key>version</key>
+			<string>1.0.0</string>
+		</dict>
+		<dict>
+			<key>about</key>
+			<string>For Instagram 6.5.1 running on an Xstragram server.</string>
+			<key>app</key>
+			<false/>
+			<key>howto</key>
+			<array>
+				<string>Open Instagram 6.5.1 signed in to your Xstragram server.</string>
+				<string>Albums show a 1/4 badge: swipe sideways. Pinch any feed photo to zoom.</string>
+			</array>
+			<key>id</key>
+			<string>com.mbucc9000.xgalbums</string>
+			<key>name</key>
+			<string>XGAlbums</string>
+			<key>public</key>
+			<true/>
+			<key>tagline</key>
+			<string>Albums, music and zoom for Instagram 6.</string>
+			<key>version</key>
+			<string>1.4.0</string>
 		</dict>
 	</array>
 	<key>repo</key>
