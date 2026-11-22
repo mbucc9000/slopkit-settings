@@ -406,6 +406,28 @@
 		</dict>
 		<dict>
 			<key>about</key>
+			<string>Fast search in Messages, like newer iOS. Every matching message shows (not just one per conversation), with the words in bold, plus matching conversations up top. Tap a result to jump straight to that message. Uses its own on-phone index.</string>
+			<key>app</key>
+			<false/>
+			<key>howto</key>
+			<array>
+				<string>In Messages, pull down on the conversation list to show the search bar, then type.</string>
+				<string>Matching conversations show first, then every matching message. Tap one to jump to it.</string>
+				<string>The first time, older messages are indexed in the background. The list shows how far along it is.</string>
+			</array>
+			<key>id</key>
+			<string>com.mbucc9000.messagesearch</string>
+			<key>name</key>
+			<string>MessageSearch</string>
+			<key>public</key>
+			<true/>
+			<key>tagline</key>
+			<string>Search your messages like newer iOS.</string>
+			<key>version</key>
+			<string>1.0.0</string>
+		</dict>
+		<dict>
+			<key>about</key>
 			<string>Tapback badges, edited messages and native iMessage reaction sending for iOS 6 Messages.</string>
 			<key>app</key>
 			<false/>
