@@ -299,6 +299,28 @@
 		</dict>
 		<dict>
 			<key>about</key>
+			<string>Type a group chat's name in the To: field of a new message and the group shows up in the suggestions. Tap it to add everyone in it. Uses names from GroupChatNameFix.</string>
+			<key>app</key>
+			<false/>
+			<key>howto</key>
+			<array>
+				<string>Name your group chats with GroupChatNameFix.</string>
+				<string>In Messages, start a new message and type part of a group's name in the To: field.</string>
+				<string>Tap the group in the suggestions to add everyone in it.</string>
+			</array>
+			<key>id</key>
+			<string>com.mbucc9000.groupsearch</string>
+			<key>name</key>
+			<string>GroupSearch</string>
+			<key>public</key>
+			<true/>
+			<key>tagline</key>
+			<string>Find group chats from the To: field.</string>
+			<key>version</key>
+			<string>1.0.1</string>
+		</dict>
+		<dict>
+			<key>about</key>
 			<string>Shows HEIC photos in Messages. Newer iPhones send camera photos as HEIC, which iOS 6 can't open, so they arrive as broken file bubbles. HEICFix makes a JPEG copy of each one on this iPhone, and Messages shows it like any other photo: in the chat, full screen, and when you save it. The original file is never changed.</string>
 			<key>app</key>
 			<false/>
